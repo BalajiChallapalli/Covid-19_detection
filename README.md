@@ -28,43 +28,43 @@ The COVID-19 Detection project uses advanced machine learning algorithms to prov
 
 
 ## Features
-### Accurate Detection: 
-Utilizes Logistic Regression and KNN to ensure high accuracy.
-### User-Friendly Interface: 
-Easy input of patient data and quick retrieval of results.
-### Scalable Solution: 
-Handles large datasets, suitable for hospitals and healthcare facilities.
+- ### Accurate Detection: 
+   Utilizes Logistic Regression and KNN to ensure high accuracy.
+- ### User-Friendly Interface: 
+  Easy input of patient data and quick retrieval of results.
+- ### Scalable Solution: 
+  Handles large datasets, suitable for hospitals and healthcare facilities.
 
 ## How It Works
-### Data Collection: 
-Gather patient data, including symptoms, medical history, and test results.
+- ### Data Collection: 
+  Gather patient data, including symptoms, medical history, and test results.
 
-### Data Preprocessing: 
-Clean and prepare the data for analysis.
+- ### Data Preprocessing: 
+  Clean and prepare the data for analysis.
 
-### Feature Selection: 
-Identify relevant features for COVID-19 detection.
+- ### Feature Selection: 
+  Identify relevant features for COVID-19 detection.
 
-### Model Training:
-#### 1. Logistic Regression: 
-Models the probability of a binary outcome (COVID-19 positive/negative).
-#### 2. K-Nearest Neighbors (KNN): 
-Classifies based on the nearest neighbors' majority class.
+- ### Model Training:
+  #### 1. Logistic Regression: 
+     Models the probability of a binary outcome (COVID-19 positive/negative).
+  #### 2. K-Nearest Neighbors (KNN): 
+  Classifies based on the nearest neighbors' majority class.
 
-### Model Evaluation: 
-Test models with separate datasets to evaluate performance.
-Prediction and Detection: Predict COVID-19 infection in new patients.
+- ### Model Evaluation: 
+  Test models with separate datasets to evaluate performance.
+  Prediction and Detection: Predict COVID-19 infection in new patients.
 
 ## Data
-### Source: 
-Medical datasets including symptoms, medical history, and test results.
+- ### Source: 
+  Medical datasets including symptoms, medical history, and test results.
 
-### Preprocessing: 
-Handling missing values, normalizing features, and selecting relevant attributes.
+- ### Preprocessing: 
+  Handling missing values, normalizing features, and selecting relevant attributes.
 ## Model Training
-### Logistic Regression: 
-Implemented using sklearn.linear_model by importing LogisticRegression.
-### K-Nearest Neighbors (KNN): 
-Implemented using sklearn.neighbors by importing KNeighborsClassifier
-### Training Process: 
-Split data into training and testing sets, train models on training data by using test_train_split, validate on testing data.
+- ### Logistic Regression: 
+  Implemented using sklearn.linear_model by importing LogisticRegression.
+- ### K-Nearest Neighbors (KNN): 
+  Implemented using sklearn.neighbors by importing KNeighborsClassifier
+- ### Training Process: 
+  Split data into training and testing sets, train models on training data by using test_train_split, validate on testing data.
